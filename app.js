@@ -3,8 +3,12 @@ var playlist = new Playlist();
 var herComesTheSun = new Song("Here Comes the Sun", "The Beatles", "2:54");
 var walkingOnSunshine = new Song("Walking On Sunshine", "Katrina and the Waves", "3:43");
 
+var manOfSteel = new Movie("Man of Steel", 2013, "2:23:00");
+
 playlist.add(herComesTheSun);
 playlist.add(walkingOnSunshine);
+
+playlist.add(manOfSteel);
 
 var playlistElement = document.getElementById("playlist");
 
